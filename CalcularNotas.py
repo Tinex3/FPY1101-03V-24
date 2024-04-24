@@ -20,3 +20,13 @@ notaExamen = float(input("Ingrese nota examen: "))
 promFinal = promNotas*0.6 + notaExamen*0.4
 
 print("Su promedio final es: ",promFinal)
+
+
+# condiciones --SI --> IF
+
+if promFinal >= 40:
+    print("Esta aprobado")
+else:
+    print("Esta reprobado")
+
+    
