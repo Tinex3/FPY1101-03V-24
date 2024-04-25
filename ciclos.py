@@ -41,20 +41,25 @@ while True:
     #break
 '''
 while True:
-    print("  MENU   ")
-    print("*********")
-    print("1. Opción 1")
-    print("2. Opción 2")
-    print("3. Salir")
-    opc = int(input("Ingrese opción"))
-
-    if opc == 1:
-        print("haga la opción 1")
-    else:
-        if opc == 2:
-            print("haga la opción 2")
+    try:
+        print("  MENU   ")
+        print("*********")
+        print("1. Opción 1")
+        print("2. Opción 2")
+        print("3. Salir")
+        opc = int(input("Ingrese opción"))
+        if opc >0 and opc < 4:
+            if opc == 1:
+                print("haga la opción 1")
+            else:
+                if opc == 2:
+                    print("haga la opción 2")
+                else:
+                    if opc == 3:
+                        break
         else:
-            if opc == 3:
-                break
+            print("La opcion debe estar entre 1 y 3")
+    except:
+        print("Debe ser numero la opcion a elegir")
 
 
