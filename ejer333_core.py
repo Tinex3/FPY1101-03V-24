@@ -2,6 +2,7 @@ import csv
 import json
 
 segmentacion_empresas = {
+    
     "Pequeño Contribuyente" : [],
     "Mediano Contribuyente": [],
     "Gran Contribuyente" : []
